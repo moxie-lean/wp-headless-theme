@@ -1,0 +1,17 @@
+language: php
+sudo: false
+php:
+  - 5.4
+
+before_script:
+  - composer self-update -q
+  - composer install
+  - composer update --prefer-lowest -n
+  - composer update -n
+
+cache:
+  directories:
+  - vendor
+
+script:
+  - composer test
