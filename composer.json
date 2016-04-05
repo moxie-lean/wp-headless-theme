@@ -3,7 +3,7 @@
   "description": "wp-headless-theme",
   "keywords": [],
   "homepage": "https://github.com/moxie-leean/wp-headless-theme",
-  "type": "library",
+  "type": "wordpress-theme",
   "license": "MIT",
   "authors": [
     {
@@ -12,7 +12,8 @@
     }
   ],
   "require": {
-    "php": ">=5.4"
+    "php": ">=5.4",
+    "composer/installers": "^1.0"
   },
   "autoload": {
     "psr-4": {
@@ -37,4 +38,3 @@
     ]
   }
 }
-
