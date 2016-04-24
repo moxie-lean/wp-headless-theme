@@ -1,5 +1,5 @@
 {
-  "name": "moxie-leean/wp-headless-theme",
+  "name": "moxie-lean/wp-headless-theme",
   "description": "wp-headless-theme",
   "keywords": [],
   "homepage": "https://github.com/moxie-leean/wp-headless-theme",
@@ -13,11 +13,6 @@
   ],
   "require": {
     "php": ">=5.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "Leean\\": "src/"
-    }
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "2.*",
